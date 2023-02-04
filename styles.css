@@ -1,0 +1,46 @@
+body{
+  background-color: #7FE9DE;
+  text-align: center;
+  font-family: sans-serif;
+}
+form{
+  background-color: #7FE9DE;
+  margin:50px auto;
+  padding: 25px;
+  width: 50%;
+  box-shadow: 50px 50px 80px white;
+}
+.form-control label{
+  display: block;
+  text-align: left;
+}
+.form-control input{
+  display: block;
+  width:100%;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.form-control select{
+  display: block;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+}
+.form-control input[type="radio"],.form-control input[type="checkbox"]
+{
+  display: inline-block;
+  width:auto;
+}
+.form-control textarea{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width:100%;
+}
+button:hover{
+  background-color: #7FE9DE;
+}
